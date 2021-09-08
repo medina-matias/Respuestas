@@ -1,0 +1,456 @@
+{
+    "adapterError": [
+        "Ocurrió un error, por favor intente más tarde"
+    ],
+    "default": {
+        "default": {
+            "not_a_client_message": [
+              "¡Hola! Soy tu asistente virtual de Movistar.🤖\nPara ver una *factura*, una *deuda*, *pagar* o hacer consultas sobre una *línea móvil o Movistar Hogar*, descargá la *app Mi Movistar* y registrate con tu email y contraseña 👉 http://mov.is/l0Ec \n\nTambién puedo ayudarte con estas consultas:\n\n✅ Avisar que pagué\n🔃 Recargar una línea\n📱 Comprar un equipo\n🌐 App Mi Movistar\n\n 📱 ¿Qué esperás para *pasarte a Movistar*? Elegí la *promo ideal* para vos y empezá a disfrutar 👉 http://movi.st/i2n"
+            ],
+            "wrong_channel_message": [
+                "¡Hola! Soy tu asistente virtual de Movistar 🤖\n\nLa línea desde la que escribís es con *CUIT*. Hay una atención exclusiva para vos en esta cuenta de WhatsApp 👉 https://movi.st/iua \n\nPara ver una factura o hacer consultas sobre una *línea móvil* o *Movistar Hogar* descargá la *app Mi Movistar* 👉 http://mov.is/l0Ec \n\n☝ ¡Algo importante! En la app podés gestionar más de una línea propia y también asociar las de amigos o familiares. Para saber cómo hacerlo, seguí esta guía 👉 http://movi.st/iv3"
+            ],
+            "unknown_client_message": [
+                "¡Hola! Soy tu Asistente Virtual de Movistar 🤖\n\nSi tu línea es con *CUIT*, hay una atención exclusiva para vos en esta cuenta de WhatsApp 👉 https://movi.st/iua \n\nSi tu línea es con *DNI*, muy pronto voy a poder ayudarte. Mientras tanto, hacé tu consulta acá 👉 http://movi.st/iqw \n\nPara ver la factura de una línea 🏠 *Movistar Hogar*, descargá la *app Mi Movistar* 👉 http://mov.is/l0Ec \n☝ ¡Algo importante! En la app podés gestionar más de una línea propia y también asociar las de amigos o familiares. Para saber cómo hacerlo, seguí esta guía 👉 http://movi.st/iv3"
+            ]
+        }
+    },
+    "mainDialog": {
+        "ilegalActivity": [
+            "Todavía no puedo interpretar audios o imágenes 🤖, pero quiero ayudarte. Escribime tu consulta con *frases cortas,* que las entiendo mejor.\n\nTal vez quieras:\n\n📄 Ver una factura\n🤔 Consultar deuda\n💲 Pagar\n✅ Avisar que pagué\n\nSi no, escribime *_‘Todos’_* y te cuento los temas en los que te puedo ayudar."
+        ],
+        "noAssociatedDialogue": [
+            "Ayudame a interpretarte mejor. Escribí *#todos* y conocé las consultas que podés hacerme, o preguntame de otra manera."
+        ],
+        "defaultFilterDialog": [
+            "No fue posible resolver esta consulta con tu línea. Escribí *#todos* y conocé las consultas que podés hacerme."
+        ],
+        "not_a_client_message": [
+            "Puedo darte información sobre 👇\n\n✅ Avisar que pagué\n🔃 Recargar una línea\n📱 Comprar un equipo\n🌐 Cómo entrar a la app Mi Movistar\n\n¿Qué esperás para pasarte a Movistar? Elegí la *promo ideal* para vos y empezá a disfrutar 👉 http://movi.st/i2n"
+        ]
+    },
+    "B2BOnWrongChannelDialog": {
+        "message": "La línea desde la que estás escribiendo es con *CUIT*. Hay una atención exclusiva para vos en esta cuenta de WhatsApp 👉 https://movi.st/iua \n\nSi querés consultar sobre *otra línea móvil o Movistar Hogar*, hacelo desde la *app Mi Movistar*: http://mov.is/l0Ec \n☝ ¡Algo importante! En la app podés gestionar más de una línea propia y también asociar las de amigos o familiares. Para saber cómo hacerlo, seguí esta guía 👉 http://movi.st/iv3"
+    },
+    "walletsDialog": {
+        "wallet_details_text": " - {{name}} {{currency}}{{value}} con vencimiento {{expirationDate}}\n",
+        "full_message": "Tal vez querés saber cuántos Gigas consumiste...\nEscribí *#consumo* o *#todos* y conocé las consultas que podés hacerme para tu línea.\n\nSi consultás por otras *líneas móviles* descargá la App Mi Movistar y entrá con tu *contraseña* para ver el saldo de todas tus líneas.\n👉 http://mov.is/l0Ec",
+        "empty_wallets_message": "Ups! te quedaste sin saldo, para recargar escribí *#recarga*.",
+        "not_full_message": "Tu saldo total es de {{currency}}{{totalAmount}}.\n{{walletsDetails}}\nPara recargar escribí *#recarga*.\n\nSi consultás por otras *líneas móviles* descargá la App Mi Movistar y entrá con tu *contraseña* para ver el saldo de todas tus líneas.\n👉 http://mov.is/l0Ec",
+        "different_currencies_message": "Tu saldo total es de:\n{{walletsDetails}}.\nPara recargar escribí *#recarga*.\n\nSi consultás por otras *líneas móviles* descargá la App Mi Movistar y entrá con tu *contraseña* para ver el saldo de todas tus líneas.\n👉 http://mov.is/l0Ec",
+        "error_message": "Ocurrió un error al intentar obtener el saldo, por favor intentá más tarde"
+    },
+    "paymentDialog": {
+        "prepaidMessage": "La línea desde la que escribís es *prepaga*.\n❔ Para saber si tenés *facturas vencidas* de tu plan anterior, escribí *_'Deuda'_*\n\nTambién puedo ayudarte con:\n\n✅ Avisar que pagué\n🔃 Recargar mi línea\n\nPara pagar facturas de *otras líneas móviles o productos Movistar Hogar*, usá la *app Mi Movistar* 👉 http://mov.is/l0Ec \nSi tenés dudas sobre cómo acceder, escribime *_'App'_* y te cuento más.",
+        "payDebtMessage": "Pagá tu factura sin moverte de tu casa, en la *app Mi Movistar* 👉 {{paymentLink}} \n\nTambién podés descargar un cupón de pago 👉 http://movi.st/iei o escribir *_'Medios de Pago'_* para conocer otras formas de pagar.\n\nTambién puedo ayudarte con:\n\n📄 Ver mi factura\n🤔 Consultar deuda\n✅ Avisar que pagué\n\nPara pagar facturas de *otras líneas móviles o productos Movistar Hogar*, usá la app Mi Movistar 👉 http://mov.is/l0Ec \nSi tenés dudas sobre cómo acceder, escribime *_'App'_* y te cuento más.",
+        "userWithoutDebtsMessege": "La línea desde la que escribís no tiene facturas pendientes de pago.\nSi necesitás pagar la *factura de otra línea*, descargá el cupón de pago acá 👉 http://movi.st/ie \nEscribí *_'Medios de Pago'_* para conocer otras formas de pagar.\n\nTambién puedo ayudarte con:\n\n📄 Ver mi factura\n🤔 Consultar deuda\n✅ Avisar que pagué\n\nPara pagar facturas de *otras líneas móviles o productos Movistar Hogar*, usá la *app Mi Movistar* 👉 http://mov.is/l0Ec \nSi tenés dudas sobre cómo acceder, escribime *_'App'_* y te cuento más.",
+        "not_a_client_message": "Para pagar la factura de *una línea móvil o Movistar Hogar*, descargá el cupón de pago acá 👉 http://movi.st/iei \n\nTambién podés hacerlo desde la *app Mi Movistar* 👉 http://mov.is/l0Ec \nSi todavía no sos cliente de Movistar, igual podés usarla. Escribime *_'App'_* y te cuento todo lo que podés hacer.\n\n📱 ¿Qué esperás para *pasarte a Movistar*? Elegí la *promo ideal* para vos y empezá a disfrutar 👉 http://movi.st/i2n \n\n📱 También puedo ayudarte con:\n\n✅ Avisar que pagué",
+        "wrong_channel_message": "La línea desde la que escribís es con *CUIT*. Hay una atención exclusiva para vos en esta cuenta de WhatsApp 👉 https://movi.st/iua \n\nPara *pagar la factura* de *otra línea móvil o Movistar Hogar* descargá la *app Mi Movistar* 👉 http://mov.is/l0Ec \n\n☝ ¡Algo importante! En la app podés gestionar más de una línea propia y también asociar las de amigos o familiares. Para saber cómo hacerlo, seguí esta guía 👉 http://movi.st/iv3",
+        "unknown_client_message": "Si tu línea es con *CUIT*, hay una atención exclusiva para vos en esta cuenta de WhatsApp 👉 https://movi.st/iua \nSi tu línea es con *DNI*, muy pronto voy a poder ayudarte. Mientras tanto, hacé tu consulta acá 👉 http://movi.st/iqw \n\nPara pagar la factura de una línea 🏠 *Movistar Hogar*, usá la *app Mi Movistar* 👉 http://mov.is/l0Ec \n\n☝ ¡Algo importante! En la app podés gestionar más de una línea propia y también asociar las de amigos o familiares. Para saber cómo hacerlo, seguí esta guía 👉 http://movi.st/iv3",
+        "paymentLink": "http://mov.is/lRYR"
+    },
+    "debtDialog": {
+        "notDebt_message": "¡Buenas noticias! *Tu línea no tiene deuda* 👌\nTu próxima factura aún no fue emitida\n\nSi querés consultar la deuda de *otras líneas móviles u Hogar*, hacelo en la *app Mi Movistar* 👉 http://mov.is/l0Ec \n☝ ¡Algo importante! En la app podés gestionar más de una línea propia y también asociar las de amigos o familiares. Para saber cómo hacerlo, escribime *_'App'_*",
+        "overdueAndnonOverdueDebt_message": "Tenés una *deuda* de {{overdue.currency}}{{overdue.amount}}.\nY una *nueva factura* de {{nonOverdue.currency}}{{nonOverdue.amount}} con vencimiento el {{nonOverdue.expiration}} de {{nonOverdue.currency}}{{nonOverdue.amount}}.\nLa suma *total* es de {{totalCurrency}}{{totalAmmount}}.\nEscribime *_'Factura'_* para descargarla\nPodés pagarla en la *app Mi Movistar* 👉http://mov.is/l0Ec o escribir *_'Medios de Pago'_* para conocer otras formas de pagar sin salir de casa.\n\nSi querés consultar la deuda de *otras líneas móviles u Hogar*, hacelo desde la app Mi Movistar 👉 http://mov.is/l0Ec \n\n☝ ¡Algo importante! En la app podés gestionar más de una línea propia y también asociar las de amigos o familiares. Para saber cómo hacerlo, escribime *_'App'_*.",
+        "overdueDebt_message": "Tenés una *deuda* de {{overdue.currency}}{{overdue.amount}}.\nPodés pagarla en la *app Mi Movistar* 👉http://mov.is/l0Ec o escribir *_'Medios de Pago'_* para conocer otras formas de pagar sin salir de casa.\n\nSi querés consultar la deuda de *otras líneas móviles u Hogar*, hacelo desde la *app Mi Movistar* 👉 http://mov.is/l0Ec \n☝ ¡Algo importante! En la app podés gestionar más de una línea propia y también asociar las de amigos o familiares. Para saber cómo hacerlo, escribime *_'App'_*.",
+        "nonOverdueDebt_message": "¡Buenas noticias! Tu línea no tiene deudas 👌\nPero recordá que tu próxima factura es de {{nonOverdue.currency}}{{nonOverdue.amount}} y vence el día {{nonOverdue.expiration}}.\nSi querés verla, escribime *´Factura´*.\n\nPodés pagarla en la *app Mi Movistar* 👉http://mov.is/l0Ec o escribir *_'Medios de Pago'_* para conocer otras formas de pagar sin salir de casa\n\nSi querés consultar la deuda de *otras líneas móviles u Hogar*, hacelo desde la app Mi Movistar 👉 http://mov.is/l0Ec \n\n☝ ¡Algo importante! En la app podés gestionar más de una línea propia y también asociar las de amigos o familiares. Para saber cómo hacerlo, escribime *_'App'_*.",
+        "error_message": "Ocurrió un error al intentar obtener tu deuda actual, por favor intentá más tarde.",
+        "prepaidNoDebt_message": "La línea desde la que me escribís es prepaga. No tenés deudas 👌\n\nSi querés consultar la deuda de *otras líneas móviles u Hogar*, hacelo desde la *app Mi Movistar* 👉 http://mov.is/l0Ec\n☝ ¡Algo importante! En la app podés gestionar más de una línea propia y también asociar las de amigos o familiares. Para saber cómo hacerlo, escribime *_'App'_*.",
+        "prepaidDebt_message": "La línea desde la que me escribís es prepaga.\nPero tiene *una deuda de tu plan anterior* de {{nonOverdue.currency}}{{nonOverdue.amount}} con vencimiento el {{nonOverdue.expiration}}.\n\nSi querés consultar la deuda de *otras líneas móviles u Hogar*, hacelo desde la *app Mi Movistar* 👉 http://mov.is/l0Ec \n☝ ¡Algo importante! En la app podés gestionar más de una línea propia y también asociar las de amigos o familiares. Para saber cómo hacerlo, escribime *_'App'_*."
+    },
+    "B2B_allDialog": {
+        "message": "Hola! Éste es nuestro canal AUTOMÁTICO de atención Movistar.\nSi necesitás ver tu plan, escribí *#plan*.\nSi deseás cambiar tu plan, escribí *#cambioplan*.\nSi querés revisar tus consumos actuales, escribí *#consumo*.\nSi deseás visualizar tu factura en línea, escribí *#factura*.\nSi tu consulta es por inconvenientes técnicos sobre tu servicio de telefonía fija, internet o televisión, escribí *#tecnica*.\n\n\nPara realizar el pago parcial o total de tu factura, escribí *#pagos*.\nSi necesitás recibir o pasar Gigas, escribí *#pasamegigas*.\nRecordá que ahora podés gestionar tu línea, consultar tus gigas y disfrutar de muchos beneficios, descuentos y concursos desde la app Mi Movistar Negocios.\nSi aún no la tenés, te recomendamos que la descargues desde este link: http://movi.st/ijt Saludos!\n",
+        "error_message": "Ocurrió un error, por favor intente más tarde."
+    },
+    "B2C_allDialog": {
+        "prepaid_message": "Puedo ayudarte con todas estas consultas referidas a la línea desde la que me escribís 👇\n\n💰 Ver mi saldo\n🔃 Recargar mi línea\n❎ Multiplicar una recarga\n🆘 Recarga SOS\n🛍 Packs\n\n◼ Pasar o pedir saldo\n◼ Pasar o pedir gigas\n◼ Ver mis consumos\n\n📱 Comprar un equipo\n🌐 Cómo entrar a la app Mi Movistar\n\nTambién te puedo asistir con otros temas. Escribime con frases cortas, que las entiendo mejor.\n\nSi querés consultar sobre *otra línea móvil o Movistar Hogar*, hacelo desde la app Mi Movistar: http://mov.is/l0Ec \n☝ ¡Algo importante! En la app podés gestionar más de una línea propia y también asociar las de amigos o familiares. Para saber cómo hacerlo, escribime *_'App'_*.",
+        "control_message": "Puedo ayudarte con todas estas consultas referidas a la línea desde la que me escribís 👇\n\n📄 Ver mi factura\n🤔 Consultar deuda\n💲 Pagar\n💳 Medios de pago\n✅ Avisar que pagué\n\n◼ Saldo (para ver el saldo de una recarga)\n◼ Recargar\n◼ Packs\n◼ Pasar o pedir saldo\n◼Pasar o pedir gigas\n◼Multiplicar una recarga\n◼Ver mis consumos\n◼ Mi plan\n◼Cambiar de plan\n\n⚙ Problema técnico\n📱 Comprar un equipo\n🌐 Cómo entrar a la app Mi Movistar\n\nTambién te puedo asistir con otros temas. Escribime con frases cortas, que las entiendo mejor.\n\nSi querés consultar sobre *otra línea móvil o Movistar Hogar*, hacelo desde la app Mi Movistar: http://mov.is/l0Ec \n☝ ¡Algo importante! En la app podés gestionar más de una línea propia y también asociar las de amigos o familiares. Para saber cómo hacerlo, escribime *_'App'_*",
+        "full_message": "Puedo ayudarte con todas estas consultas referidas a la línea desde la que me escribís 👇\n\n📄 Ver mi factura\n🤔 Consultar deuda\n💲 Pagar\n💳 Medios de pago\n✅ Avisar que pagué\n\n◼ Pasar o pedir gigas\n◼ Ver mis consumos\n◼ Mi plan\n◼Cambiar de plan\n\n⚙ Problema técnico\n📱 Comprar un equipo\n🌐 Cómo entrar a la app Mi Movistar\n\nTambién te puedo asistir con otros temas. Escribime con frases cortas, que las entiendo mejor.\n\nSi querés consultar sobre *otra línea móvil o Movistar Hogar*, hacelo desde la *app Mi Movistar*: http://mov.is/l0Ec \n☝ ¡Algo importante! En la app podés gestionar más de una línea propia y también asociar las de amigos o familiares. Para saber cómo hacerlo, escribime *_'App'_*",
+        "unknown_client_message": "Si tu línea es con *DNI*, muy pronto voy a poder ayudarte. Mientras tanto, podés hacer tus consultas acá: http://movi.st/iqw \nSi tu línea es con *CUIT*, hay una atención exclusiva para vos en esta cuenta de WhatsApp 👉https://movi.st/iua \n\nPuedo darte información sobre 👇\n\n✅ Avisar que pagué\n🔃 Recargar una línea\n📱 Comprar un equipo.",
+        "not_a_client_message": "Puedo darte información sobre 👇\n\n✅ Avisar que pagué\n🔃 Recargar una línea\n📱 Comprar un equipo\n🌐 Cómo entrar a la app Mi Movistar\n\n¿Qué esperás para pasarte a Movistar? Elegí la *promo ideal* para vos y empezá a disfrutar 👉 http://movi.st/i2n",
+        "wrong_channel_message": "La línea desde la que estás escribiendo es con *CUIT*. Hay una atención exclusiva para vos en esta cuenta de WhatsApp 👉 https://movi.st/iua \n\nSi querés consultar sobre *otra línea móvil o Movistar Hogar*, hacelo desde la *app Mi Movistar*: http://mov.is/l0Ec \n☝ ¡Algo importante! En la app podés gestionar más de una línea propia y también asociar las de amigos o familiares. Para saber cómo hacerlo, seguí esta guía 👉 http://movi.st/iv3",
+        "error_message": "Ocurrió un error, por favor intentá más tarde."
+    },
+    "invoiceDialog": {
+        "prepaid_message": "La línea desde la que escribís ahora *es prepaga y no tiene factura*.\n❔ Para saber si debés, escribí *_'Deuda'_*.\n\nSi querés ver la factura de *otra línea móvil*, hacelo desde la *app Mi Movistar*: http://mov.is/l0Ec \n☝ ¡Algo importante! En la app podés gestionar más de una línea propia y asociar las de amigos o familiares. Para saber cómo hacerlo, escribime *_'App'_*.\n\n🏠 Para descargar la factura de una línea *Movistar Hogar*, entrá acá: http://movi.st/ivn \n\n¿Te gustaría *cambiar de plan*? Mirá estas promos y elegí la mejor para vos 👉 http://movi.st/iqv",
+        "fullOrControlPaid_message": "Tu última factura es de {{currency}}{{amount}} con vencimiento el {{dueDate}}.\n❔ Para saber cuánto debés, escribí *_'Deuda'_*.\nPodés pagar tus facturas desde la *app Mi Movistar* 👉http://mov.is/l0Ec o escribir *_'Medios de Pago'_* para conocer otras formas de pagar sin salir de casa.\n\nSi querés ver la factura de *otra línea móvil*, hacelo desde la *app Mi Movistar*: http://mov.is/l0Ec \n☝ ¡Algo importante! En la app podés gestionar más de una línea propia y asociar las de amigos o familiares. Para saber cómo hacerlo, escribime *_'App'_*.\n\n🏠 Para descargar la factura de una *línea Movistar Hogar*, entrá acá: http://movi.st/ivn",
+        "fullOrControlNonPaid_message": "Tu última factura con vencimiento {{dueDate}} tiene un importe total de {{currency}}{{amount}}.\n❔ Para saber cuánto debés, escribí *_'Deuda'_*.\nPodés pagar tus facturas desde la *app Mi Movistar* 👉http://mov.is/l0Ec o escribir *_'Medios de Pago'_* para conocer otras formas de pagar sin salir de casa.\n\nSi querés ver la factura de *otra línea móvil*, hacelo desde la *app Mi Movistar*: http://mov.is/l0Ec \n☝ ¡Algo importante! En la app podés gestionar más de una línea propia y asociar las de amigos o familiares. Para saber cómo hacerlo, escribime *_'App'_*.\n\n🏠 Para descargar la factura de una *línea Movistar Hogar*, entrá acá: http://movi.st/ivn",
+        "fullOrControlOther_message": "Tu última factura con vencimiento {{dueDate}} tiene un importe total de {{currency}}{{amount}}.\n❔ Para saber cuánto debés escribí *_'Deuda'_*.\nPodés pagar tus facturas desde la *app Mi Movistar* 👉http://mov.is/l0Ec o escribir *_'Medios de Pago'_* para conocer otras formas de pagar sin salir de casa.\n\nSi querés ver la factura de *otra línea móvil*, hacelo desde la *app Mi Movistar*: http://mov.is/l0Ec \n☝ ¡Algo importante! En la app podés gestionar más de una línea propia y asociar las de amigos o familiares. Para saber cómo hacerlo, escribime *_'App'_*.\n\n🏠 Para descargar la factura de una *línea Movistar Hogar*, entrá acá: http://movi.st/ivn",
+        "not_a_client_message": "Para ver la factura de una *línea móvil* o *Movistar Hogar*, descargá la *app Mi Movistar* 👉 http://mov.is/l0Ec. \n☝ Algo importante: entrá a la app con tu email y contraseña, no con tu número de teléfono. Si tenés dudas, escribime *_'App'_* y te cuento más.\nSi querés *pagar la factura de un cliente Movistar*, hacelo sin moverte de tu casa. Seguí estos pasos: http://movi.st/hz7 \n¿Querés *pasarte a Movistar*? 📱 Mirá las promos que tenemos para vos 👉 http://movi.st/i1f ",
+        "unknown_client_message": "Si tu línea es con *DNI*, muy pronto voy a poder ayudarte con tu factura. Mientras tanto, podés hacer tus consultas acá: http://movi.st/iqw \nSi tu línea es con *CUIT*, hay una atención exclusiva para vos en esta cuenta de WhatsApp 👉 https://movi.st/iua \nPara consultar la factura de otra *línea móvil* o *Movistar Hogar️*, usá la *app Mi Movistar*. Descargala acá: http://mov.is/l0Ec \n☝ Algo importante: entrá a la app con tu *email y contraseña*, no con tu número de teléfono. Si tenés dudas, escribí *_'App'_* y te cuento más. \nSi querés *pagar la factura de un cliente Movistar*, hacelo sin moverte de tu casa. Seguí estos pasos 👉 http://movi.st/hz7 ",
+        "error_message": "Ocurrió un error al intentar obtener tu factura, por favor intentá más tarde."
+    },
+    "kbMessageDialog": {
+        "message": "{{kbResponse}}"
+    },
+    "SurveyMiddleware": {
+        "message": "Nos ayudás a mejorar? Completá la siguiente encuesta:\nhttps://moviencuestas.epiron.com.ar/WApp/index.php?cod={{whatsappAni}}"
+    },
+    "UnknownClientTypeDialog": {
+        "message": "Si tu línea es con *DNI*, muy pronto voy a poder ayudarte. Mientras tanto, podés hacer tus consultas acá: http://movi.st/iqw \nSi tu línea es con *CUIT*, hay una atención exclusiva para vos en esta cuenta de WhatsApp 👉https://movi.st/iua \n\nPuedo darte información sobre 👇\n\n✅ Avisar que pagué\n🔃 Recargar una línea\n📱 Comprar un equipo."
+    },
+    "GreetingsDialog": {
+        "wapp_b2c": {
+            "control_message": [
+                "¡Hola! Soy tu Asistente Virtual de Movistar 🤖\nPuedo ayudarte con consultas referidas a la *línea desde la que me escribís*.¿Necesitás algo de esto?👇\n\n📄 Ver mi factura\n🤔 Consultar deuda\n💲 Pagar\n✅ Avisar que pagué\n💰 Ver mi saldo\n🔃 Recargar\n📱 Comprar un equipo\n\nSi no, contame tu consulta con *frases cortas*, que las entiendo mejor. O escribime *_'Todos'_* para saber los temas en los que puedo asistirte.\n\nPara consultar por *otra línea móvil* o *Movistar Hogar*, usá la app Mi Movistar: http://mov.is/l0Ec \nSi tenés dudas sobre cómo acceder, escribime *_'App'_* y te cuento más."
+            ],
+            "full_message": [
+                "¡Hola! Soy tu Asistente Virtual de Movistar 🤖\nPuedo ayudarte con consultas referidas a la *línea desde la que me escribís*.¿Necesitás algo de esto?👇\n\n📄 Ver mi factura\n🤔 Consultar deuda\n💲 Pagar\n✅ Avisar que pagué\n📱 Comprar un equipo\n\nSi no, contame tu consulta con *frases cortas*, que las entiendo mejor. O escribime *_'Todos'_* para saber los temas en los que puedo asistirte.\n\nPara consultar por *otra línea móvil* o *Movistar Hogar*, usá la app Mi Movistar: http://mov.is/l0Ec \nSi tenés dudas sobre cómo acceder, escribime *_'App'_* y te cuento más."
+            ],
+            "prepaid_message": [
+                "¡Hola! Soy tu Asistente Virtual de Movistar 🤖\nPuedo ayudarte con consultas referidas a la *línea desde la que me escribís*.¿Necesitás algo de esto?👇\n\n💰 Ver mi saldo\n🔃 Recargar mi línea\n❎ Multiplicar una recarga\n🆘 Recarga SOS\n🛍 Packs\n📱 Comprar un equipo\n\nSi no, contame tu consulta con *frases cortas*, que las entiendo mejor. O escribime *_'Todos'_* para saber los temas en los que puedo asistirte.\n\nPara consultar por *otra línea móvil* o *Movistar Hogar*, usá la app Mi Movistar: http://mov.is/l0Ec \nSi tenés dudas sobre cómo acceder, escribime *_'App'_* y te cuento más."
+            ],
+            "not_a_client_message": [
+                "¡Hola! Soy tu asistente virtual de Movistar. 🤖\nPara ver una *factura*, una *deuda*, *pagar* o hacer consultas sobre una *línea móvil o Movistar Hogar*, descargá la *app Mi Movistar* y registrate con tu email y contraseña 👉 http://mov.is/l0Ec \n\nTambién puedo ayudarte con estas consultas:\n\n✅ Avisar que pagué\n🔃 Recargar una línea\n📱 Comprar un equipo\n🌐 App Mi Movistar\n\n 📱 ¿Qué esperás para *pasarte a Movistar*? Elegí la *promo ideal* para vos y empezá a disfrutar 👉 http://movi.st/i2n"
+            ],
+            "wrong_channel_message": [
+                "¡Hola! Soy tu asistente virtual de Movistar. 🤖\nLa línea desde la que escribís es con *CUIT*. Hay una atención exclusiva para vos en esta cuenta de WhatsApp 👉 https://movi.st/iua \n\nPara ver una *factura*, una *deuda*, *pagar* o hacer consultas sobre una *línea móvil o Movistar Hogar* descargá la *app Mi Movistar* 👉 http://mov.is/l0Ec \n☝ ¡Algo importante! En la app podés gestionar más de una línea propia y también asociar las de amigos o familiares. Para saber cómo hacerlo, seguí esta guía 👉 http://movi.st/iv3"
+            ],
+            "unknown_client_message": [
+                "¡Hola! Soy tu asistente virtual de Movistar. 🤖\nSi tu línea es con *CUIT*, hay una atención exclusiva para vos en esta cuenta de WhatsApp 👉 https://movi.st/iua \nSi tu línea es con *DNI*, muy pronto voy a poder ayudarte. Mientras tanto, hacé tu consulta acá 👉 http://movi.st/iqw \n\nPara ver la *factura* o la *deuda*, *pagar* o hacer consultas sobre una línea 🏠 *Movistar Hogar*, descargá la *app Mi Movistar* 👉 http://mov.is/l0Ec \n☝ ¡Algo importante! En la app podés gestionar más de una línea propia y también asociar las de amigos o familiares. Para saber cómo hacerlo, seguí esta guía 👉 http://movi.st/iv3"
+            ]
+        }
+    },
+    "GreetingsB2BDialog": {
+        "wapp_b2b": {
+            "bussiness_client_role_user_message": [
+                "¡Hola! Bienvenido a nuestro canal AUTOMÁTICO de atención Movistar\n ▪️Si necesitás ver tu plan, escribí *#plan*. \n▪️ Si deseás visualizar tu factura escribí *#factura*. \n ▪️Para realizar el pago parcial o total de tu factura, escribí *#pagos*.\n ▪️Si querés revisar tus consumos actuales, escribí *#consumo*. \n  ▪️Si tu consulta es por inconvenientes técnicos sobre tu servicio de telefonía fija, Internet FIJA o televisión, escribí *#tecnicafija*. \n ▪️Para denunciar el robo o pérdida de tu equipo escribí *#Robo*.\n ▪️Si presentás Interrupción de tu servicio escribí *#nohabla*. \n\nRecordá que por la *APP de Mi Movistar Negocios* 📱 podrás hacer más consultas automatizadas 😉.\nSi aún no la tenés, la podés descargar desde acá:\n👉http://movi.st/ijt"
+            ],
+            "business_client_role_titular_and_entrepreneurs_segment_message": [
+                "¡Hola! Gracias por escribirnos, éste es nuestro canal de atención Movistar.\nSi deseás visualizar la factura del CUIT de tu empresa, escribí *#factura*.\nPara realizar el pago parcial o total de tu factura, escribí *#pagos*.\nSi tu consulta es por inconvenientes técnicos sobre tu servicio de Telefonía Fija, Internet Fija o Televisión, escribí *#tecnicafija*.\nEn caso de que necesites comunicarte con tu asesor comercial, escribí *#Asesor*.\n\nAdemás de este WhatsApp, tenés disponible 24hs horas los siguientes canales de atención donde podés autogestionarte: \n◼️ *Mi Cuenta Negocios* \nPodés acceder a la web desde acá: \n👉 https://mov.is/micuentanegocios \n◼️ *App Mi Movistar Negocios* Podés descargar la App desde acá: \n👉 https://mov.is/appmovistar"
+            ],
+            "business_client_role_titular_and_premium_segment": [
+                "¡Hola! Gracias por escribirnos, éste es nuestro canal de atención Movistar.\nSi deseás visualizar la factura del CUIT de tu empresa, escribí *#factura*.\nPara realizar el pago parcial o total de tu factura, escribí *#pagos*.\nSi tu consulta es por inconvenientes técnicos sobre tu servicio de Telefonía Fija, Internet Fija o Televisión, escribí *#tecnicafija*.\nEn caso de que necesites comunicarte con tu asesor comercial, escribí *#Asesor*.\n\nAdemás de este WhatsApp, tenés disponible 24hs horas los siguientes canales de atención donde podés autogestionarte: \n◼️ *Mi Cuenta Negocios* \nPodés acceder a la web desde acá: \n👉 https://mov.is/micuentanegocios \n◼️ *App Mi Movistar Negocios* Podés descargar la App desde acá: \n👉 https://mov.is/appmovistar"
+            ]
+        }
+    },
+    "ConsumosB2BDialog": {
+        "wapp_b2b": {
+            "bussiness_client_role_user_message": [
+                "Chequeá tus consumos acá: \n👉 https://movi.st/iju "
+            ],
+            "business_client_role_titular_and_entrepreneurs_segment_message": [
+                "Chequeá tus consumos acá:  \n👉 https://movi.st/iju \nSi tu consulta no fue resuelta podés ingresar *ASESOR* para comunicarte con tu asesor comercial "
+            ],
+            "business_client_role_titular_and_premium_segment": [
+                "Chequeá tus consumos acá: \n👉 https://movi.st/iju \nSi tu consulta no fue resuelta podés ingresar *ASESOR* para comunicarte con tu asesor comercial "
+            ]
+        }
+    },
+    "PaymentB2BDialog": {
+        "wapp_b2b": {
+            "default": [
+                "Si querés realizar el pago de tu factura ingresa acá: \n👉 https://web.negocios.movistar.com.ar "
+            ]
+        }
+    },
+    "GoodByeDialog": {
+        "default": {
+            "default": [
+                "Es un gusto ayudarte! Escribime si necesitás algo más 😃",
+                "Gracias por comunicarte, hasta la próxima! 😉"
+            ]
+        }
+    },
+    "ChangePlanDialog": {
+        "wapp_b2c": {
+            "control_message": [
+                "Si querés *cambiar tu plan* o el de otra *línea móvil o Movistar Hogar*, hacelo desde la *app Mi Movistar* 👉 http://mov.is/l0Ec. \n☝ ¡Algo importante! En la app podés gestionar más de una línea propia y también asociar las de amigos o familiares. Para saber cómo hacerlo, escribime *_'App'_*\n\n❕ Para conocer todas nuestras promos en *planes*, entrá acá 👉 http://movi.st/how \n\nSi pediste un *cambio de plan* en tu línea móvil, escribí *_'Plan'_* para saber si ya está activo.\n\n❕ ¿Querés disfrutar de más gigas, más minutos y Movistar Play gratis?\n*Mejorá tu plan* con estas promos 👉 http://movi.st/how"
+            ],
+            "full_message": [
+                "Si querés *cambiar tu plan* o el de otra *línea móvil o Movistar Hogar*, hacelo desde la *app Mi Movistar* 👉 http://mov.is/l0Ec. \n☝ ¡Algo importante! En la app podés gestionar más de una línea propia y también asociar las de amigos o familiares. Para saber cómo hacerlo, escribime *_'App'_*\n\n❕ Para conocer todas nuestras promos en *planes*, entrá acá 👉 http://movi.st/how \n\nSi pediste un *cambio de plan* en tu línea móvil, escribí *_'Plan'_* para saber si ya está activo.\n\n❕ ¿Querés disfrutar de más gigas, más minutos y Movistar Play gratis?\n*Mejorá tu plan* con estas promos 👉 http://movi.st/how"
+            ],
+            "prepaid_message": [
+                "La línea desde la que me escribís ahora es *prepaga*.\n¿Te gustaría *cambiar de plan* a uno con factura? Mirá estas promos y elegí la mejor para vos  👉 http://movi.st/iqv \n\n📱 Si querés cambiar el plan de *otra línea móvil* o de tus *productos Movistar Hogar*, hacelo desde la *app Mi Movistar* 👉 http://mov.is/l0Ec \n☝ ¡Algo importante! En la app podés gestionar más de una línea propia y también asociar las de amigos o familiares. Para saber cómo hacerlo, escribime *_'App'_*"
+            ],
+            "not_a_client_message": [
+                "📱 Si querés cambiar el plan de una *línea móvil* o de tus *productos Movistar Hogar*, hacelo desde la *app Mi Movistar* 👉 http://mov.is/l0Ec \n\n☝ ¡Algo importante! En la app podés gestionar más de una línea propia y también asociar las de amigos o familiares.\nSi tenés dudas sobre cómo usar la *app*, seguí esta guía 👉 http://movi.st/iv3 \n\n¿Querés *pasarte a Movistar*? 📱 Hacelo sin moverte de tu casa 👉 http://movi.st/i1f"
+            ],
+            "wrong_channel_message": [
+                "La línea desde la que escribís es con *CUIT*. Hay una atención exclusiva para vos en esta cuenta de WhatsApp 👉 https://movi.st/iua \n\n📱 Si querés cambiar el plan de *otra línea móvil* o de tus *productos Movistar Hogar*, hacelo desde la *app Mi Movistar* 👉 http://mov.is/l0Ec \n☝ ¡Algo importante! En la app podés gestionar más de una línea propia y también asociar las de amigos o familiares.\nSi tenés dudas sobre cómo usar la *app*, seguí esta guía paso a paso 👉 http://movi.st/iv3"
+            ],
+            "unknown_client_message": [
+                "Si tu línea es con *DNI*, muy pronto voy a poder ayudarte. Mientras tanto, podés hacer tus consultas acá: http://movi.st/iqw \nSi tu línea es con *CUIT*, hay una atención exclusiva para vos en esta cuenta de WhatsApp 👉 https://movi.st/iua \n\n📱 Si querés cambiar el plan de *otra línea móvil* o de tus *productos Movistar Hogar*, hacelo desde la *app Mi Movistar* 👉 http://mov.is/l0Ec \n☝ ¡Algo importante! En la app podés gestionar más de una línea propia y también asociar las de amigos o familiares.\nSi tenés dudas sobre cómo usar la *app*, seguí esta guía paso a paso 👉 http://movi.st/iv3"
+            ]
+        }
+    },
+    "AvisoDePagoDialog": {
+        "wapp_b2c": {
+            "control_message": [
+                "Después de pagar una factura, *no es necesario que me avises*. Si la línea tiene *servicio reducido*, se normalizará una vez que ingrese el pago\n⏱ Generalmente, esto tarda como máximo *2 horas*, según la forma de pago elegida\n\nSi ya pasaron *2 horas*, seguí estos pasos:\n\n1️⃣ Verificá que se haya cumplido el *plazo de imputación* para la forma de pago que elegiste 👉 http://movi.st/ivq \n2️⃣ Tené a mano tu *comprobante de pago*\n3️⃣ Escribí *'Soporte'* para que pueda ayudarte más."
+            ],
+            "full_message": [
+                "Después de pagar una factura, *no es necesario que me avises*. Si la línea tiene *servicio reducido*, se normalizará una vez que ingrese el pago\n⏱ Generalmente, esto tarda como máximo *2 horas*, según la forma de pago elegida\n\nSi ya pasaron *2 horas*, seguí estos pasos:\n\n1️⃣ Verificá que se haya cumplido el *plazo de imputación* para la forma de pago que elegiste 👉 http://movi.st/ivq \n2️⃣ Tené a mano tu *comprobante de pago*\n3️⃣ Escribí *'Soporte'* para que pueda ayudarte más."
+            ],
+            "prepaid_message": [
+                "La línea desde la que estás escribiendo es *prepaga*, no tiene factura mensual.\n\nDespués de pagar una factura, *no es necesario que me avises*. Si la línea tiene *servicio reducido*, se normalizará una vez que ingrese el pago.\n⏱ Generalmente, esto tarda como máximo *2 horas*, según la forma de pago elegida.\n\nSi ya pasaron *2 horas*, seguí estos pasos:\n\n1️⃣ Verificá que se haya cumplido el *plazo de imputación* para la forma de pago que elegiste 👉 http://movi.st/ivq \n2️⃣ Tené a mano tu *comprobante de pago*\n3️⃣ Escribí *'Soporte'* para que pueda ayudarte más."
+            ],
+            "not_a_client_message": [
+                "Después de pagar una factura, *no es necesario que me avises*. Si la línea tiene *servicio reducido*, se normalizará una vez que ingrese el pago.\n⏱ Generalmente, esto tarda como máximo *2 horas*, según la forma de pago elegida.\n\nSi ya pasaron *2 horas*, seguí estos pasos:\n\n1️⃣ Verificá que se haya cumplido el *plazo de imputación* para la forma de pago que elegiste 👉 http://movi.st/ivq\n2️⃣ Tené a mano tu *comprobante de pago*\n3️⃣Contactate con nuestro *canal de atención* en Facebook: http://movi.st/han o Twitter: http://movi.st/hao"
+            ],
+            "wrong_channel_message": [
+                "La línea desde la que escribís es con *CUIT*. Hay una atención exclusiva para vos en esta cuenta de WhatsApp 👉 https://movi.st/iua \n\nDespués de pagar una factura, *no es necesario que me avises*. Si la línea está *sin servicio*, se restablecerá una vez que ingrese el pago.\n⏱ Generalmente, esto tarda como máximo *2 horas*, según la forma de pago elegida. Conocé los plazos acá 👉 http://movi.st/ivq"
+            ],
+            "unknown_client_message": [
+                "Después de pagar una factura, *no es necesario que me avises*. Si la línea tiene *servicio reducido*, se normalizará una vez que ingrese el pago.\n⏱ Generalmente, esto tarda como máximo *2 horas*, según la forma de pago elegida.\n\nSi ya pasaron *2 horas*, seguí estos pasos:\n\n1️⃣ Verificá que se haya cumplido el *plazo de imputación* para la forma de pago que elegiste 👉 http://movi.st/ivq\n2️⃣ Tené a mano tu *comprobante de pago*\n3️⃣Contactate con nuestro *canal de atención* en Facebook: http://movi.st/han o Twitter: http://movi.st/hao"
+            ]
+        }
+    },
+    "MediosDePagoDialog": {
+        "wapp_b2c": {
+            "control_message": [
+                "Si querés pagar una factura Movistar, podés hacerlo sin moverte de tu casa, desde la *app Mi Movistar* 👉 http://mov.is/jSbf. \n\nPara saber más, escribime *_‘App’._*\n\nTambién podés usar todos estos *medios de pago electrónico* 👇\n\n◾ Desde tu celular: **610 o* **611,* opción 2.\n◾ *Pago Mis Cuentas* 👉 http://pagomiscuentas.com \n◾ *Link Pagos* 👉 www.linkpagos.com.ar \n◾ *Visa* 👉 www.visa.com.ar \n◾ A través de un *cupón de pago,* podés hacer un *pago total o parcial.* Descargalo acá: http://movi.st/ip3 \n◾ Débito de tu cuenta bancaria, desde tu *Home Banking.*\n\n☝ Recordá que el *código de pago electrónico* está en la parte superior derecha de la primera hoja de tu factura y tiene 13 dígitos.\n\n❔ Todavía hay más formas de pagar. Conocelas acá 👉 http://movi.st/i6l "
+            ],
+            "full_message": [
+                "Si querés pagar una factura Movistar, podés hacerlo sin moverte de tu casa, desde la *app Mi Movistar* 👉 http://mov.is/jSbf. \n\nPara saber más, escribime *_‘App’._*\n\nTambién podés usar todos estos *medios de pago electrónico* 👇\n\n◾ Desde tu celular: **610 o* **611,* opción 2.\n◾ *Pago Mis Cuentas* 👉 http://pagomiscuentas.com \n◾ *Link Pagos* 👉 www.linkpagos.com.ar \n◾ *Visa* 👉 www.visa.com.ar \n◾ A través de un *cupón de pago,* podés hacer un *pago total o parcial.* Descargalo acá: http://movi.st/ip3 \n◾ Débito de tu cuenta bancaria, desde tu *Home Banking.*\n\n☝ Recordá que el *código de pago electrónico* está en la parte superior derecha de la primera hoja de tu factura y tiene 13 dígitos.\n\n❔ Todavía hay más formas de pagar. Conocelas acá 👉 http://movi.st/i6l "
+            ],
+            "prepaid_message": [
+                "Si querés pagar una factura Movistar, podés hacerlo sin moverte de tu casa, desde la *app Mi Movistar* 👉 http://mov.is/jSbf. \n\nPara saber más, escribime *_‘App’._*\n\nTambién podés usar todos estos *medios de pago electrónico* 👇\n\n◾ Desde tu celular: **610 o* **611,* opción 2.\n◾ *Pago Mis Cuentas* 👉 http://pagomiscuentas.com \n◾ *Link Pagos* 👉 www.linkpagos.com.ar \n◾ *Visa* 👉 www.visa.com.ar \n◾ A través de un *cupón de pago,* podés hacer un *pago total o parcial.* Descargalo acá: http://movi.st/ip3 \n◾ Débito de tu cuenta bancaria, desde tu *Home Banking.*\n\n☝ Recordá que el *código de pago electrónico* está en la parte superior derecha de la primera hoja de tu factura y tiene 13 dígitos.\n\n❔ Todavía hay más formas de pagar. Conocelas acá 👉 http://movi.st/i6l "
+            ],
+            "not_a_client_message": [
+                "Si querés pagar una factura Movistar, podés hacerlo sin moverte de tu casa, desde la *app Mi Movistar* 👉 http://mov.is/jSbf. \n\nPara saber más, escribime *_‘App’._*\n\nTambién podés usar todos estos *medios de pago electrónico* 👇\n\n◾ Desde tu celular: **610 o* **611,* opción 2.\n◾ *Pago Mis Cuentas* 👉 http://pagomiscuentas.com \n◾ *Link Pagos* 👉 www.linkpagos.com.ar \n◾ *Visa* 👉 www.visa.com.ar \n◾ A través de un *cupón de pago,* podés hacer un *pago total o parcial.* Descargalo acá: http://movi.st/ip3 \n◾ Débito de tu cuenta bancaria, desde tu *Home Banking.*\n\n☝ Recordá que el *código de pago electrónico* está en la parte superior derecha de la primera hoja de tu factura y tiene 13 dígitos.\n\n❔ Todavía hay más formas de pagar. Conocelas acá 👉 http://movi.st/i6l \n\n¿Querés *pasarte a Movistar?* 📱 Elegí la promo ideal para vos y empezá a disfrutar 👉 http://movi.st/i1f "
+            ],
+            "wrong_channel_message": [
+                "La línea desde la que estás escribiendo es con *CUIT.* Hay una atención exclusiva para vos en esta cuenta de WhatsApp 👉 https://movi.st/iua \n\nSi querés pagar una factura Movistar, podés hacerlo sin moverte de tu casa, desde la *app Mi Movistar* 👉 http://mov.is/jSbf. \n\nPara saber más, escribime *_‘App’._*\n\nTambién podés usar todos estos *medios de pago electrónico* 👇\n\n◾ Desde tu celular: **610 o* **611,* opción 2.\n◾ *Pago Mis Cuentas* 👉 http://pagomiscuentas.com \n◾ *Link Pagos* 👉 www.linkpagos.com.ar \n◾ *Visa* 👉 www.visa.com.ar \n◾ A través de un *cupón de pago,* podés hacer un *pago total o parcial.* Descargalo acá: http://movi.st/ip3 \n◾ Débito de tu cuenta bancaria, desde tu *Home Banking.*\n\n☝ Recordá que el *código de pago electrónico* está en la parte superior derecha de la primera hoja de tu factura y tiene 13 dígitos.\n\n❔ Todavía hay más formas de pagar. Conocelas acá 👉 http://movi.st/i6l "
+            ],
+            "unknown_client_message": [
+                "Si querés pagar una factura Movistar, podés hacerlo sin moverte de tu casa, desde la *app Mi Movistar* 👉 http://mov.is/jSbf. \n\nPara saber más, escribime *_‘App’._*\n\nTambién podés usar todos estos *medios de pago electrónico* 👇\n\n◾ Desde tu celular: **610 o* **611,* opción 2.\n◾ *Pago Mis Cuentas* 👉 http://pagomiscuentas.com \n◾ *Link Pagos* 👉 www.linkpagos.com.ar \n◾ *Visa* 👉 www.visa.com.ar \n◾ A través de un *cupón de pago,* podés hacer un *pago total o parcial.* Descargalo acá: http://movi.st/ip3 \n◾ Débito de tu cuenta bancaria, desde tu *Home Banking.*\n\n☝ Recordá que el *código de pago electrónico* está en la parte superior derecha de la primera hoja de tu factura y tiene 13 dígitos.\n\n❔ Todavía hay más formas de pagar. Conocelas acá 👉 http://movi.st/i6l "
+            ]
+        }
+    },
+    "GiveMeGigasDialog": {
+        "wapp_b2c": {
+            "control_message": [
+                "Pasá Gigas desde la App Mi Movistar \n👉 http://mov.is/lxUp \n\nSi consultás por otras *líneas móviles*, descargá la App Mi Movistar, entrá con tu *contraseña* y podrás pasar gigas desde esas líneas\n\n👉 http://mov.is/l0Ec"
+            ],
+            "full_message": [
+                "Pasá Gigas desde la App Mi Movistar \n👉 http://mov.is/lKLL \n\nSi consultás por otras *líneas móviles*, descargá la App Mi Movistar, entrá con tu *contraseña* y podrás pasar gigas desde esas líneas\n\n👉 http://mov.is/l0Ec"
+            ],
+            "prepaid_message": [
+                "Entiendo que querés recargar, multiplicar o armar tu pack. Hacelo desde la App Mi Movistar \n👉 http://mov.is/lQVS \n\nSi consultás por otras *líneas móviles*, descargá la App Mi Movistar, entrá con tu *contraseña* y podrás pasar gigas desde esas líneas\n\n👉 http://mov.is/l0Ec"
+            ]
+        }
+    },
+    "PacksDialog": {
+        "wapp_b2c": {
+            "control_message": [
+                "Conocé las promos de packs acá:\n👉 http://mov.is/mFZp \n\nSi consultás por otras *líneas móviles* descargá la App Mi Movistar, entrá con tu *contraseña* y podrás realizar la compra de packs de todas tus líneas.\n👉 http://mov.is/l0Ec"
+            ],
+            "full_message": [
+                "Comprá los packs de Gigas disponibles para vos acá:\n👉 http://mov.is/mpSO \n\nSi consultás por otras *líneas moviles* descargá la App Mi Movistar, entrá con tu *contraseña* y podrás realizar la compra de packs de todas tus líneas.\n👉 http://mov.is/l0Ec"
+            ],
+            "prepaid_message": [
+                "Te cuento que ahora los packs vienen con redes sociales y whatsapp gratis! \nComprá o Armá tu Pack desde la app Mi Movistar \n👉 http://mov.is/lBgu \n\nSi consultás por otras *líneas móviles* descargá la App Mi Movistar, entrá con tu *contraseña* y podrás realizar la compra de packs de todas tus líneas.\n👉 http://mov.is/l0Ec"
+            ]
+        }
+    },
+    "MultiplicateDialog": {
+        "wapp_b2c": {
+            "control_message": [
+                "Multiplicá tu crédito entrando acá:\n👉 http://mov.is/lFQB \n\nSi consultás por otras *líneas móviles*, descargá la App Mi Movistar, entrá con tu *contraseña* y podrás multiplicar tu crédito en esas líneas\n👉 http://mov.is/l0Ec"
+            ],
+            "full_message": [
+                "La línea desde la que estás escribiendo *no usa recargas* ni la opción *Multiplicate*.\nPara cargar saldo en otra línea entrá a:\n◼ La App Mi Movistar, opción Cargame Saldo, solo pago contrafactura 👉 http://mov.is/lzS0 \n◼ O por la Web, solo con tarjeta de crédito 👉 http://movi.st/hrr \nPuedo ayudarte con otras consultas. Escribime frases cortas, que las entiendo mejor. 😉"
+            ],
+            "prepaid_message": [
+                "Multiplicá tu crédito y tené Gigas GRATIS para usar en redes sociales y también más Gigas para usar como quieras. Hacelo desde acá:\n👉 http://mov.is/lSV8 \n\nSi consultás por otras *líneas móviles*, descargá la App Mi Movistar, entrá con tu *contraseña* y podrás multiplicar tu crédito en esas líneas\n👉 http://mov.is/l0Ec"
+            ]
+        }
+    },
+    "RechargeDialog": {
+        "wapp_b2c": {
+            "control_message": [
+                "Si querés *recargar tu línea u otra*, podes hacerlo en:\n◾ La app Mi Movistar 👉 http://mov.is/lJSq \n◾ La web, solo con tarjeta de crédito 👉 http://movi.st/hrr \n\nRecordá que desde la App podés:\n\n✔ Recargar saldo con *tarjetas* (crédito o débito) y *Mercado Pago.*\n✔ Usar *tarjetas de recarga.*\n✔ Hacer la *Recarga SOS.*\n✔ *Pedir saldo.*\n Y mucho más.\n\n☝ ¡Algo importante! En la app podés gestionar más de una línea propia y también asociar las de amigos o familiares. Para saber cómo hacerlo, escribime *_‘App’._*"
+            ],
+            "full_message": [
+                "La línea desde la que estás escribiendo *no necesita recargas*. Si querés *comprar gigas*, hacelo en la *App Mi Movistar* http://mov.is/mzwn \n\nSi necesitás *cargar saldo en otra línea,* podés hacerlo en:\n◾ La app Mi Movistar, en la opción _Cargame Saldo,_ solo pago contrafactura 👉 http://mov.is/mzwn \n◾ La web, solo con tarjeta de crédito 👉 http://movi.st/hrr \n\n☝ ¡Algo importante! En la app podés gestionar más de una línea propia y también asociar las de amigos o familiares. Para saber cómo hacerlo, escribime *_‘App’._*"
+            ],
+            "prepaid_message": [
+                "Si querés recargar tu línea u otra, podes hacerlo en:\n◾ La app Mi Movistar 👉 http://mov.is/I0Ec \n◾ La web, solo con tarjeta de crédito 👉 http://movi.st/hrr \n🎁 ¡A partir de los $50 tenés regalo!\n\nRecordá que desde la app podés:\n\n✔ Recargar saldo con *tarjetas* (crédito o débito) y *Mercado Pago.*\n✔ Usar *tarjetas de recarga.*\n✔ Hacer la *Recarga SOS.*\n✔ *Pedir saldo.*\nY mucho más.\n\n☝ ¡Algo importante! En la app podés gestionar más de una línea propia y también asociar las de amigos o familiares. Para saber cómo hacerlo, escribime *_‘App’._*"
+            ],
+            "unknown_client_message": [
+                "Si tu línea es con CUIT, hay una atención exclusiva para vos en esta cuenta de WhatsApp 👉 https://movi.st/iua \n\nSi querés cargar una línea Movistar, hacelo desde la web, con tarjeta de crédito 👉 http://movi.st/hrr "
+            ],
+            "not_a_client_message": [
+                "Si querés cargar una línea Movistar, hacelo con tarjeta de crédito desde la web 👉 http://movi.st/hrr \n\nTambién podés recargar en la *app Mi Movistar* 👉 http://mov.is/lJSq \nRecordá que desde la app podés:\n\n✔ Recargar saldo con *tarjetas* (crédito o débito) y *Mercado Pago.*\n✔ Usar *tarjetas de recarga.*\n✔ Hacer la *Recarga SOS.*\n✔ *Pedir saldo.*\nY mucho más.\n\n☝ ¡Algo importante! Si todavía no sos cliente Movistar, igual podés usar la app.\nEn la app podés gestionar más de una línea propia y también asociar las de amigos o familiares. Para saber cómo hacerlo, escribime *_‘App’._*"
+            ],
+            "wrong_channel_message": [
+                "La línea desde la que escribís es con CUIT. Hay una atención exclusiva para vos en esta cuenta de WhatsApp 👉 https://movi.st/iua \n\nSi querés cargar una línea Movistar, hacelo con tarjeta de crédito desde la web 👉 http://movi.st/hrr \n\nTambién podés recargar en la *app Mi Movistar* 👉 http://mov.is/lJSq \nRecordá que desde la app podés:\n\n✔ Recargar saldo con *tarjetas* (crédito o débito) y *Mercado Pago.*\n✔ Usar *tarjetas de recarga.*\n✔ Hacer la *Recarga SOS.*\n✔ *Pedir saldo.*\nY mucho más."
+            ]
+        }
+    },
+    "ShareCreditDialog": {
+        "wapp_b2c": {
+            "control_message": [
+                "Pasá saldo desde acá: \n👉 http://mov.is/lIBt \n\nSi consultás por otras *líneas móviles*, descargá la App Mi Movistar, entrá con tu *contraseña* y podrás pasar saldo desde esas líneas\n👉 http://mov.is/l0Ec"
+            ],
+            "full_message": [
+                "Entiendo que querés pasar Gigas, hacelo desde la App Mi Movistar \n👉 http://mov.is/lKLL \n\nSi consultás por otras *líneas móviles*, descargá la App Mi Movistar, entrá con tu *contraseña* y podrás pasar saldo desde esas líneas\n👉 http://mov.is/l0Ec"
+            ],
+            "prepaid_message": [
+                "Pasá saldo desde acá: \n👉 http://mov.is/lSLT👉 http://mov.is/lIBt \n\nSi consultás por otras *líneas móviles*, descargá la App Mi Movistar, entrá con tu *contraseña* y podrás pasar saldo desde esas líneas\n👉 http://mov.is/l0Ec"
+            ]
+        }
+    },
+    "SOSRechargeDialog": {
+        "wapp_b2c": {
+            "control_message": [
+                "Hacé tu recarga SOS desde la App Mi Movistar.\n👉 http://mov.is/lEAB \n\nSi consultás por otras *líneas móviles* descargá la App Mi Movistar, entrá con tu *contraseña* y podrás recargar con SOS todas tus líneas\n👉 http://mov.is/l0Ec"
+            ],
+            "full_message": [
+                "Entiendo que tal vez querés comprar Gigas, entrá a la App Mi Movistar acá:\n👉 http://mov.is/lJZW \nSi no intentá preguntándome con *frases cortas* que entiendo mejor.Si consultás por otras *líneas móviles* descargá la App Mi Movistar, entrá con tu *contraseña* y podrás recargar con SOS todas tus líneas\n👉 http://mov.is/l0Ec"
+            ],
+            "prepaid_message": [
+                "Hacé tu recarga SOS desde la App Mi Movistar\n👉 http://mov.is/lAZC \n\nSi consultás por otras *líneas móviles* descargá la App Mi Movistar, entrá con tu *contraseña* y podrás recargar con SOS todas tus líneas\n👉 http://mov.is/l0Ec"
+            ]
+        }
+    },
+    "UsageDialog": {
+        "wapp_b2c": {
+            "control_message": [
+                "Mirá tus consumos acá: \n👉 http://mov.is/lGOe \n\nSi consultás por otras *líneas móviles*, descargá la App Mi Movistar, entrá con tu *contraseña* y podrás ver el consumo de todas tus líneas\n\n👉 http://mov.is/l0Ec"
+            ],
+            "full_message": [
+                "Mirá tus consumos acá: \n👉 http://mov.is/lOq6 \n\nSi consultás por otras *líneas móviles*, descargá la App Mi Movistar, entrá con tu *contraseña* y podrás ver el consumo de todas tus líneas\n\n👉 http://mov.is/l0Ec"
+            ],
+            "prepaid_message": [
+                "Mirá tus consumos acá: \n👉 http://mov.is/lCqf \n\nSi consultás por otras *líneas móviles*, descargá la App Mi Movistar, entrá con tu *contraseña* y podrás ver el consumo de todas tus líneas\n\n👉 http://mov.is/l0Ec"
+            ]
+        }
+    },
+    "AppDialog": {
+        "wapp_b2c": {
+            "control_message": [
+                "En la *app Mi Movistar* podés: \n✔ Recargar una línea\n✔ Consultar saldos\n ✔ Pagar tu factura\n✔ Cambiar de plan\nY mucho más. Descargala acá 👉 http://mov.is/l0Ec \n\nSi no tenés espacio en tu celular o no podés descargarla, usá la *WebApp* desde una computadora: http://movi.st/ivc \n\nDesde la app podés gestionar todas tus líneas Movistar y también las de amigos o familiares que quieras asociar.\n\n☝ Si tenés *más de una línea móvil* o una *línea Movistar Hogar,* para verlas todas entrá a la app con tu email y contraseña, no con tu número de teléfono.\n\nHacelo desde la pestaña *“Contraseña”* que aparece arriba, a la derecha de la pantalla. Puede que ya estés logueado con tu número de teléfono. En ese caso, *cerrá sesión y volvé a entrar.*\n\nSi tenés dudas, seguí esta guía paso a paso 👉 http://movi.st/iv3 "
+            ],
+            "full_message": [
+                "En la *app Mi Movistar* podés: \n✔ Comprar gigas\n✔ Consultar consumos\n ✔ Pagar tu factura\n✔ Cambiar de plan\nY mucho más. Descargala acá 👉 http://mov.is/l0Ec \n\nSi no tenés espacio en tu celular o no podés descargarla, usá la *WebApp* desde una computadora: http://movi.st/ivc \n\nDesde la app podés gestionar todas tus líneas Movistar y también las de amigos o familiares que quieras asociar.\n\n☝ Si tenés *más de una línea móvil* o una *línea Movistar Hogar*, para verlas todas entrá a la app con tu email y contraseña, no con tu número de teléfono.\n\nHacelo desde la pestaña *“Contraseña”* que aparece arriba, a la derecha de la pantalla. Puede que ya estés logueado con tu número de teléfono. En ese caso, *cerrá sesión y volvé a entrar.*\n\nSi tenés dudas, seguí esta guía paso a paso 👉 http://movi.st/iv3 "
+            ],
+            "prepaid_message": [
+                "En la *app Mi Movistar* podés: \n✔ Recargar una línea\n✔ Consultar saldos\n ✔ Pagar tu factura\n✔ Cambiar de plan\nY mucho más. Descargala acá 👉 http://mov.is/l0Ec \n\nSi no tenés espacio en tu celular o no podés descargarla, usá la *WebApp* desde una computadora: http://movi.st/ivc \n\nDesde la app podés gestionar todas tus líneas Movistar y también las de amigos o familiares que quieras asociar.\n\n☝ Si tenés *más de una línea móvil* o una *línea Movistar Hogar*, para verlas todas entrá a la app con tu email y contraseña, no con tu número de teléfono.\n\nHacelo desde la pestaña *“Contraseña”* que aparece arriba, a la derecha de la pantalla. Puede que ya estés logueado con tu número de teléfono. En ese caso, *cerrá sesión y volvé a entrar.*\n\nSi tenés dudas, seguí esta guía paso a paso 👉 http://movi.st/iv3 "
+            ],
+            "unknown_client_message": [
+                "Si tu línea es con *DNI*, muy pronto vas a poder usar la App Mi Movistar. Mientras tanto, hacé tu consulta acá 👉 http://movi.st/iqw \n\nSi tu línea es con *CUIT*, hay una *atención exclusiva* para vos en esta cuenta de WhatsApp 👉 https://movi.st/iua "
+            ],
+            "not_a_client_message": [
+                "Si todavía no sos cliente de Movistar, igual podés usar la app para gestionar la línea Movistar de un amigo o familiar.\n\nEn la *app Mi Movistar* podés:\n✔ Recargar una línea \n✔ Consultar saldos \n ✔ Pagar tu factura \n✔ Cambiar de plan \nY mucho más. Descargala acá 👉 http://mov.is/l0Ec \n\nSi no tenés espacio en tu celular o no podés descargarla, usá la *WebApp* desde una computadora: http://movi.st/ivc \n\n🏠 Si tenés una *línea Movistar Hogar*, entrá a la app con tu *email y contraseña*, no con tu número de teléfono. \n\n¿Querés pasarte a Movistar? 📱 Mirá las promos que tenemos para vos 👉 http://movi.st/i1f "
+            ],
+            "wrong_channel_message": [
+                "Tu línea es con *CUIT.* Hay una atención exclusiva para vos en esta cuenta de WhatsApp 👉 https://movi.st/iua \n\n🏠 Si tenés una *línea Movistar Hogar,* usá la *app Mi Movistar* para consultar el estado de tu cuenta y mucho más. Descargala acá 👉 http://mov.is/IzS0 \n\n☝ Entrá a la app con tu *email y contraseña,* no con tu número de teléfono.\n\nSi no tenés espacio en el celular o no podés descargarla, usá la *WebApp* desde una computadora: http://movi.st/ivc "
+            ]
+        }
+    },
+    "ThankyouDialog": {
+        "default": {
+            "default": [
+                "De nada! Cuando necesites acá estaré para ayudarte 😃",
+                "Por nada! Me alegra haberte sido útil 😉",
+                "Por nada! Volvé por acá cuando me necesites 😉",
+                "De nada! Aquí estaré esperando tu próxima consulta 😃"
+            ]
+        }
+    },
+    "SwearWordsDialog": {
+        "default": {
+            "default": [
+                "Tengamos una conversación más amena. 🙂 Si me escribís malas palabras, no puedo ayudarte\n\nTal vez necesites algo de esto:\n\n📄 Ver una factura\n🤔 Consultar deuda\n💲 Pagar\n✅ Avisar que pagué\n\nSi no, escribime *_'Todos'_* y te cuento los temas en los que puedo asistirte  ",
+                "Epa, eso no me gustó. Si me preguntás de otra manera, te puedo ayudar.\n\nTal vez quieras:\n\n📄 Ver una factura\n🤔 Consultar deuda\n💲 Pagar\n✅ Avisar que pagué\n\nSi no, escribime *_'Todos'_* y te cuento los temas en los que puedo asistirte"
+            ]
+        }
+    },
+    "NoneDialog": {
+        "wapp_b2c": {
+            "default": [
+                "No entendí tu consulta, pero quiero ayudarte. 🤖 ¿Me lo preguntás de otra manera?\n\nTal vez quieras consultar algo de esto:\n\n📄 Ver una factura\n🤔 Consultar deuda\n💲 Pagar\n✅ Avisar que pagué\n\nSi no, escribime *_'Todos'_* y te cuento los temas en los que puedo asistirte",
+                "No me queda clara tu consulta. Soy un robot que está aprendiendo y quiero ayudarte. 🤖 ¿Me lo escribís de otra forma?\n\nTambién podés indicarme si es algo de esto:\n\n📄 Ver una factura\n🤔 Consultar deuda\n💲 Pagar\n✅ Avisar que pagué\n\nSi no, escribime *_'Todos'_* y te cuento los temas en los que puedo asistirte",
+                "Uy, no entiendo a qué te referís. Intentá escribirlo con frases cortas, que las entiendo mejor. 🤖\n\n¿Necesitás ayuda con algo de esto?:\n\n📄 Ver una factura\n🤔 Consultar deuda\n💲 Pagar\n✅ Avisar que pagué\n\nSi no, escribime *_'Todos'_* y te cuento los temas en los que puedo asistirte",
+                "No entendí tu consulta, pero quiero ayudarte. 🤖 ¿Podrías escribirlo de otra forma?\n\nSi no, avisame si necesitás ayuda con:\n\n📄 Ver una factura\n🤔 Consultar deuda\n💲 Pagar\n✅ Avisar que pagué\n\nSi no, escribime *_'Todos'_* y te cuento los temas en los que puedo asistirte "
+            ]
+        }
+    },
+    "NoneB2BDialog": {
+        "wapp_b2b": {
+            "bussiness_client_role_user_message": [
+                "No me queda clara tu consulta. \nEsto es lo que puedo hacer por vos:\n ▪️Si necesitás ver tu plan, escribí #plan. \n▪️ Si deseás visualizar tu factura escribí #factura. \n ▪️Para realizar el pago parcial o total de tu factura, escribí #pagos. \n ▪️Si querés revisar tus consumos actuales, escribí #consumo. \n ▪️Si tu consulta es por inconvenientes técnicos sobre tu servicio de telefonía fija, Internet FIJA o televisión, escribí #tecnicafija. \n ▪️Para denunciar el robo o pérdida de tu equipo escribí #Robo.\n ▪️Si presentás Interrupción de tu servicio escribí #nohabla. \n\nRecordá que por la APP de Mi Movistar Negocios 📱 podrás hacer más consultas automatizadas 😉. Aprovechá los beneficios exclusivos de Club Movistar. Si aún no la tenés, te recomendamos que la descargues desde este link: http://movi.st/ijt"
+            ],
+            "business_client_role_titular_and_entrepreneurs_segment_message": [
+                "No me queda clara tu consulta. \nEsto es lo que puedo hacer por vos:\nSi deseás visualizar la factura del CUIT de tu empresa, escribí *#factura*.\nPara realizar el pago parcial o total de tu factura, escribí *#pagos*.\nSi tu consulta es por inconvenientes técnicos sobre tu servicio de Telefonía Fija, Internet Fija o Televisión, escribí *#tecnicafija*.\nEn el caso de que necesites comunicarte con tu asesor comercial, escribí *#Asesor*.\n\nAdemás de este WhatsApp, tenés disponible 24hs horas los siguientes canales de atención donde podés autogestionarte: \n◼️ *Mi Cuenta Negocios* \nPodés acceder a la web desde acá: \n👉 https://mov.is/micuentanegocios \n◼️ *App Mi Movistar Negocios* Podés descargar la App desde acá: \n👉 https://mov.is/appmovistar"
+            ],
+            "business_client_role_titular_and_premium_segment": [
+                "No me queda clara tu consulta. \nEsto es lo que puedo hacer por vos:\nSi deseás visualizar la factura del CUIT de tu empresa, escribí *#factura*.\nPara realizar el pago parcial o total de tu factura, escribí *#pagos*.\nSi tu consulta es por inconvenientes técnicos sobre tu servicio de Telefonía Fija, Internet Fija o Televisión, escribí *#tecnicafija*.\nEn el caso de que necesites comunicarte con tu asesor comercial, escribí *#Asesor*.\n\nAdemás de este WhatsApp, tenés disponible 24hs horas los siguientes canales de atención donde podés autogestionarte: \n◼️ *Mi Cuenta Negocios* \nPodés acceder a la web desde acá: \n👉 https://mov.is/micuentanegocios \n◼️ *App Mi Movistar Negocios* Podés descargar la App desde acá: \n👉 https://mov.is/appmovistar"
+            ]
+        }
+    },
+    "HandoverB2BDialog": {
+        "wapp_b2b": {
+            "bussiness_client_role_user_message": [
+                "Con tu línea no es posible realizar esta acción. Comunicate con el apoderado de tu empresa."
+            ]
+        }
+    },
+    "InvoicingB2BDialog": {
+        "wapp_b2b": {
+            "bussiness_client_role_user_message": [
+                "Podés consultar tu factura actual y la de meses anteriores desde la App Mi Movistar Negocios. 😉\n👉 http://movi.st/hxr "
+            ],
+            "business_client_role_titular_and_entrepreneurs_segment_message": [
+                "Podés consultar tu factura actual y la de meses anteriores desde la App Mi Movistar Negocios. 😉\n👉 http://movi.st/hxr \n\nSi tu consulta no fue resuelta y necesitás hablar con un asesor escribí *#asesor*  "
+            ],
+            "business_client_role_titular_and_premium_segment": [
+                "Podés consultar tu factura actual y la de meses anteriores desde la App Mi Movistar Negocios. 😉\n👉 http://movi.st/hxr \n\nSi tu consulta no fue resuelta y necesitás hablar con un asesor escribí *#asesor*   "
+            ]
+        }
+    },
+    "PlanDetailsDialog": {
+        "default": {
+            "error_message": [
+                "Ocurrió un error al intentar obtener el detalle de tu plan, por favor intentá más tarde."
+            ]
+        },
+        "wapp_b2c": {
+            "prepaid_message": "Tenés un plan prepago y podés armar tu *pack* eligiendo cantidad de gigas, minutos y qué días usarlo. *Los packs incluyen redes sociales y whatsapp gratis*. Además podés multiplicar tus recargas desde $30.\nEntrá a la App Mi Movistar para conocer más\n👉 http://mov.is/lBgu \n\nSi consultás por otras *líneas móviles* u *hogar* descargá la App Mi Movistar y entrá con tu *contraseña* para ver el plan de todas tus líneas\n👉 http://mov.is/lQVS",
+            "control_message": "Tenés contratado {{name}}\nTiene {{details.navega}}.\nPodés hablar {{details.habla}}.\nPodés mensajear {{details.mensajea}}.\nAdemás incluye WhatsApp Gratis\n\nPara conocer el precio de tu plan entrá a la App/Ver detalle de tu plan http://mov.is/l0Ec o escribí *#factura* para saber cuánto pagás.\n\nSi consultás por otras *líneas móviles* u *hogar* descargá la App Mi Movistar y entrá con tu *contraseña* para ver el plan de todas tus líneas\n👉 http://mov.is/lQVS",
+            "full_message": "Tenés contratado {{name}}\nTiene {{details.navega}}.\nPodés hablar {{details.habla}}.\nPodés mensajear {{details.mensajea}}.\nAdemás incluye WhatsApp Gratis\n\nPara conocer el precio de tu plan entrá a la App/Ver detalle de tu plan http://mov.is/l0Ec o escribí *#factura* para saber cuánto pagás.\n\nSi consultás por otras *líneas móviles* u *hogar* descargá la App Mi Movistar y entrá con tu *contraseña* para ver el plan de todas tus líneas\n👉 http://mov.is/lQVS"
+        },
+        "wapp_b2b": {
+            "prepaid_message": "Tenés un plan prepago. \nPara más información ingresá:\n\n👉 https://www.movistar.com.ar/web/guest \n\nLos precios indicados en el sitio web no incluyen bonificaciones, en el caso de que las tengas, lo verás reflejado en la factura.",
+            "control_message": "Tu Plan actual es de {{price}} y tenés {{details.navega}}.\nPodés hablar {{details.habla}}.\nPodés mensajear {{details.mensajea}}.\n.Para más información ingresá:\n\n👉 https://www.movistar.com.ar/web/guest \n\nLos precios indicados en el sitio web no incluyen bonificaciones, en el caso de que las tengas, lo verás reflejado en la factura.",
+            "full_message": "Tu Plan actual es de {{price}} y tenés {{details.navega}}.\nPodés hablar {{details.habla}}.\nPodés mensajear {{details.mensajea}}.\nPara más información ingresá:\n\n👉 https://www.movistar.com.ar/web/guest \n\nLos precios indicados en el sitio web no incluyen bonificaciones, en el caso de que las tengas, lo verás reflejado en la factura."
+        }
+    },
+    "DevicePurchaseDialog": {
+        "wapp_b2c": {
+            "control_message": [
+                "¿Buscás un nuevo equipo? En la *Tienda Movistar* 📱 vas a encontrar *celulares liberados* que podés pagar con tarjeta de *crédito o débito*. Elegí el mejor para vos 👉 http://movi.st/iuh \n\nSi querés comprar un equipo en *efectivo* o *pagarlo contrafactura*, alguien de nuestro equipo comercial puede ayudarte. 👩\u200d💼👨\u200d💼 Conocé más acá 👉 http://movi.st/iug \n\n🚚 Para saber cuánto tarda en llegar a tu casa o dónde podés retirarlo, entrá acá: http://movi.st/iui \n\nSi además de un equipo necesitás un nuevo chip, pedilo en el *611 o el 📞 0800 321 0611."
+            ],
+            "full_message": [
+                "¿Buscás un nuevo equipo? En la *Tienda Movistar* 📱 vas a encontrar *celulares liberados* que podés pagar con tarjeta de *crédito o débito*. Elegí el mejor para vos 👉 http://movi.st/iuh \n\nSi querés comprar un equipo en *efectivo* o *pagarlo contrafactura*, alguien de nuestro equipo comercial puede ayudarte. 👩\u200d💼👨\u200d💼 Conocé más acá 👉 http://movi.st/iug \n\n🚚 Para saber cuánto tarda en llegar a tu casa o dónde podés retirarlo, entrá acá: http://movi.st/iui \n\nSi además de un equipo necesitás un nuevo chip, pedilo en el *611 o el 📞 0800 321 0611."
+            ],
+            "prepaid_message": [
+                "¿Buscás un nuevo equipo? En la *Tienda Movistar* 📱 vas a encontrar *celulares liberados* que podés pagar con tarjeta de *crédito o débito*. Elegí el mejor para vos 👉 http://movi.st/iuh \n\nSi querés comprar un equipo en *efectivo* o *pagarlo contrafactura*, alguien de nuestro equipo comercial puede ayudarte. 👩\u200d💼👨\u200d💼 Conocé más acá 👉 http://movi.st/iug \n\n🚚 Para saber cuánto tarda en llegar a tu casa o dónde podés retirarlo, entrá acá: http://movi.st/iui \n\nSi además de un equipo necesitás un nuevo chip, pedilo en el *611 o el 📞 0800 321 0611."
+            ],
+            "unknown_client_message": [
+                "Si tu línea es con *CUIT*, hay una atención exclusiva para vos en esta cuenta de WhatsApp 👉 https://movi.st/iua \n¿Buscás un nuevo equipo?\n\nEn la *Tienda Movistar* 📱 vas a encontrar *celulares liberados* que podés pagar con tarjeta de *crédito o débito*. Elegí el mejor para vos 👉 http://movi.st/iuh \n\nSi querés comprar un equipo en *efectivo* o *pagarlo contrafactura*, alguien de nuestro equipo comercial puede ayudarte. 👩\u200d💼👨\u200d💼 Conocé más acá 👉 http://movi.st/iug \n\n🚚 Para saber cuánto tarda en llegar a tu casa o dónde podés retirarlo, entrá acá: http://movi.st/iui \n\nSi además de un equipo necesitás un nuevo chip, pedilo en el *611 o el 📞 0800 321 0611."
+            ],
+            "not_a_client_message": [
+                "Si querés comprar un *equipo liberado* 📱, en la *Tienda Movistar* vas a encontrar una variedad marcas y precios. Elegí el mejor para vos 👉 http://movi.st/iuh \n\nNo es necesario que seas cliente de Movistar. Podés pagar con tarjeta de *crédito* o *débito*.\n\n🚚 Para saber cuánto tarda en llegar a tu casa o dónde podés retirarlo, entrá acá: http://movi.st/iui \n\nSi además de un equipo necesitás un nuevo chip, pedilo en el *611 o el 📞 0800 321 0611."
+            ],
+            "wrong_channel_message": [
+                "La línea desde la que estás escribiendo es con *CUIT*. Hay una atención exclusiva para vos en esta cuenta de WhatsApp 👉 https://movi.st/iua \n\n¿Buscás un nuevo equipo? En la *Tienda Movistar* 📱 vas a encontrar *celulares liberados* que podés pagar con tarjeta de *crédito o débito*. Elegí el mejor para vos 👉 http://movi.st/iuh \n\n👩\u200d💼Si querés comprar un equipo *en efectivo* o *pagarlo contrafactura*, un asesor puede ayudarte. Mirá 👉 http://movi.st/iug \n\n🚚 Para saber cuánto tarda en llegar a tu casa o dónde podés retirarlo, entrá acá: http://movi.st/iui \n\nSi además de un equipo necesitás un nuevo chip, pedilo en el *611 o el 📞 0800 321 0611."
+            ]
+        }
+    },
+    "HandoverDialog": {
+        "wapp_b2c": {
+            "unknown_client_message": [
+                "Si tu línea es con *DNI*, muy pronto voy a poder conectarte con un asesor que te ayude con tu reclamo. Mientras tanto, hacé tu consulta en esta web http://movi.st/iqw \nSi tu línea es con *CUIT*, hay una *atención exclusiva* para vos en esta cuenta de WhatsApp 👉 https://movi.st/iua \n\n🏠 Si tenés productos *Movistar Hogar*, consultá tus consumos en la *app Mi Movistar*👉 http://mov.is/l0Ec \n\n☝ ¡Algo importante! En la app podés gestionar más de una línea propia y también asociar las de amigos o familiares. Para saber cómo hacerlo, escribime *_‘App’_*\n\n⚙ Si tenés un problema técnico:\n\n🏠 En una *línea Movistar Hogar*, consultá en esta web 👉 http://movi.st/hzn \n🌐 En el servicio *Movistar Banda Ancha* o *Movistar Fibra*, entrá acá 👉 http://movi.st/iuq \n📱 Desde *otra línea móvil de Movistar*, podés encontrar ayuda en la app Mi Movistar 👉  Soporte > Resolver problema técnico > Empezar pruebas."
+            ],
+            "not_a_client_message": [
+                "Para que pueda ayudarte con esta consulta, tenés que escribirme *desde una línea Movistar*.\nRecordá que en la *app Mi Movistar* vas a encontrar información sobre facturas, deudas o planes de líneas móviles u Hogar. Descargala y empezá a usarla 👉 http://mov.is/l0Ec \n\n🏠 Si tenés productos *Movistar Hogar*, consultá tus consumos en la *app Mi Movistar*👉 http://mov.is/l0Ec \n\n☝ ¡Algo importante! En la app podés gestionar más de una línea propia y también asociar las de amigos o familiares. Para saber cómo hacerlo, escribime *_‘App’_*\n\n⚙ Si tenés un problema técnico:\n\n🏠 En una *línea Movistar Hogar*, consultá en esta web 👉 http://movi.st/hzn \n🌐 En el servicio *Movistar Banda Ancha* o *Movistar Fibra*, entrá acá 👉 http://movi.st/iuq \n📱 Desde *otra línea móvil de Movistar*, podés encontrar ayuda en la app Mi Movistar 👉  Soporte > Resolver problema técnico > Empezar pruebas."
+            ],
+            "wrong_channel_message": [
+                "La línea desde la que estás escribiendo es con *CUIT*. Para ayudarte con tu consulta, vas a recibir una *atención exclusiva* en este número de WhatsApp 👉 https://movi.st/iua \nSi querés consultar por *otras líneas móviles u Hogar*, hacelo en la app Mi Movistar👉 http://mov.is/l0Ec \n\n☝ ¡Algo importante! En la app podés gestionar más de una línea propia y también asociar las de amigos o familiares. Para saber cómo hacerlo, escribime *_‘App’_*.\n\n⚙ Si tenés un problema técnico:\n\n🏠 En una *línea Movistar Hogar*, consultá en esta web 👉 http://movi.st/hzn \n🌐 En el servicio *Movistar Banda Ancha* o *Movistar Fibra*, entrá acá 👉 http://movi.st/iuq \n📱 Desde *otra línea móvil de Movistar*, podés encontrar ayuda en la app Mi Movistar 👉  Soporte > Resolver problema técnico > Empezar pruebas."
+            ]
+        }
+    }
+}
